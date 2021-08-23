@@ -1,0 +1,48 @@
+#sprint-picker-container {
+    border: 1px solid #DF87C0;
+    max-width: 450px;
+    padding: 8px 15px 13px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sprint-picker-container #header {
+    color: #d05da7;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 0;
+    margin-bottom: 13px;
+}
+
+#sprint-picker-container .step-descr {
+    color: #d05da7;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+#sprint-picker-container #link {
+    color: #0909bd;
+    margin-top: 8px;
+}
+
+#sprint-picker-container #link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sprint-picker-container #board-select, #sprint-select {
+    height: 37px;
+    min-width: 200px;
+    padding: 5px 5px;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+#sprint-picker-container #board-select:hover, #sprint-select:hover {
+    background-color: #fff5fb;
+    cursor: pointer;
+}
